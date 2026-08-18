@@ -1,0 +1,26 @@
+{
+  "name": "not-a-bot-assessment",
+  "version": "1.0.0",
+  "description": "Not for a bot!",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisalnord/not-a-bot-assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faisalnord/not-a-bot-assessment/issues"
+  },
+  "homepage": "https://github.com/faisalnord/not-a-bot-assessment#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^22.13.8",
+    "typescript": "^5.8.2"
+  }
+}
